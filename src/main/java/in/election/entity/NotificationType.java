@@ -1,0 +1,12 @@
+package in.election.entity;
+
+public enum NotificationType {
+    ELECTION_SCHEDULED,
+    ELECTION_STARTED,
+    ELECTION_ENDED,
+    VOTE_CONFIRMATION,
+    REGISTRATION_APPROVED,
+    REGISTRATION_REJECTED,
+    SYSTEM_MAINTENANCE,
+    SECURITY_ALERT
+}
